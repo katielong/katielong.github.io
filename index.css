@@ -1,0 +1,31 @@
+<style text/css>
+
+html,body{font: Arial;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+	}
+	
+div{background-color:#3a56b2;text-align: center;
+}
+
+h1{font-family: Bradley Hand;text-align: center;color: white;font-weight: bold;font-size: 50px;margin-top: 0px;
+}
+
+img.displayed{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 20px;
+	
+}
+
+a.home{color:#3a56b2; background-color: white;}
+
+a{color: white;font-size: 18px;
+	text-decoration: none;}
+
+a:hover{background-color: white;color:#3a56b2;}
+
+
+</style>
