@@ -82,10 +82,21 @@ body
 	#logo h1
 	{
 		display: inline-block;
-		margin-bottom: 0em;
-		padding: 0.20em 0.9em;
-		font-size: 3em;
+		font-size: 2em;
 	}
+
+	#logo h1:hover a
+	{
+		color: #3E5A99;
+	}
+
+	
+	#logo-homepage h1:hover a
+	{
+		color: #4682B4;
+	}
+
+
 
 /*********************************************************************************/
 /* Menu                                                                          */
@@ -144,7 +155,7 @@ body
 
 	#menu-homepage li:hover a, #menu-homepage li.active a, #menu-homepage li.active span
 	{
-		color: #3E5A99;
+		color: #4682B4;
 	}
 
 /*********************************************************************************/
