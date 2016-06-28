@@ -59,6 +59,8 @@ body
 	{
 		text-align:center;
 		background:rgba(0,0,100,0.1);	
+		width:800px;
+		margin:0px auto;
 	}
 
 	#header-homepage a
