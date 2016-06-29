@@ -85,6 +85,8 @@ body
 	{
 		display: inline-block;
 		font-size: 2em;
+		padding:0em;
+		border-width:0;
 	}
 
 	#logo h1:hover a
@@ -92,7 +94,11 @@ body
 		color: #3E5A99;
 	}
 
-	
+	#logo-homepage h1
+	{
+		margin: 0 auto;
+	}
+
 	#logo-homepage h1:hover a
 	{
 		color: #4682B4;
@@ -144,13 +150,11 @@ body
 	}
 	#menu-homepage li a
 	{
-		display: inline-block;
 		padding: 1.3em 1.5em;
 		text-decoration: none;
 		font-size: 0.90em;
 		font-weight: 600;
 		text-transform: uppercase;
-		outline: 0;
 		color: #000;
 	}
 
@@ -212,4 +216,5 @@ body
 	width:40px;
 	height:auto;
 	padding: 1em 1em;
+	margin-top:0em;
 }
