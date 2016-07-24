@@ -8,13 +8,17 @@ body
 
 	a
 	{
-		color: #000;
+		color: #3E5A99;
 		text-decoration: none;
 	}
 	
 	a:hover
 	{
 		text-decoration: none;
+	}
+
+	ul{
+		list-style-type: none;
 	}
 	
 	#container
@@ -27,6 +31,20 @@ body
 	{
 		border-bottom: 1px solid #807F83;
 	}
+
+	.emph
+	{
+		font-style:italic;
+		display:inline;
+	}
+
+	#summary{
+		margin:0 auto;
+		width:500px;
+		margin-top: 20px;
+	}
+
+
 
 /*********************************************************************************/
 /* Header                                                                        */
@@ -64,7 +82,7 @@ body
 
 	#menu li:hover a, #menu li.active a, #menu li.active span
 	{
-		color: #3E5A99;
+		color: #000;
 	}
 /*********************************************************************************/
 /* Copyright                                                                     */
@@ -114,5 +132,4 @@ body
 		width:30px;
 		height:30px;
 		padding: 0px 10px;
-		/*margin-top:0em;*/
 	}
