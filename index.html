@@ -1,33 +1,82 @@
 <!DOCTYPE html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Katie Yue Long</title>
-<link href="style.css" rel="stylesheet" type="text/css">
+<title></title>
+
+<link href="css/style.css" rel="stylesheet" type="text/css">
+<link href="css/normalize.css" rel="stylesheet" type="text/css">
+<link href="css/grid.css" rel="stylesheet" type="text/css">
+
+<link href='https://fonts.googleapis.com/css?family=Slabo+27px' rel='stylesheet' type='text/css'>
 
 </head>
 
-<body id="homepage">
-	<div id="header-wrapper">
-	<div id="header-homepage" class="container">
-		<img id="profile" src="images/profile.JPG">
-		<div id="logo-homepage">
-			<h1><a href="index.html">Katie Yue Long</a></h1>
-			<div id="icon">
-			<a href="https://github.com/katielong"><img src="images/github.png"></a>
-			<a href="https://www.linkedin.com/in/yue-long-5a2b2546?trk=nav_responsive_tab_profile"><img src="images/linkedin.png"></a>
-			</div>
-			<div id="menu-homepage">
-				<ul>
-					<li><a href="visualization.html" accesskey="1" title="">Visualization</a></li>
-					<li><a href="analytics.html" accesskey="2" title="">Analytics</a></li>
-					<li><a href="cv.html" accesskey="3" title="">CV</a></li>
-					<li><a href="other.html" accesskey="4" title="">Others</a></li>
-				</ul>
+<body>
+<div id="container">
+	<header>
+		<img style="width:18%;border-radius: 50%;" src="images/profile.JPG">
+		<h1>Katie Yue Long</h1>
+
+		<div id="icon">
+		<a href="https://github.com/katielong"><img src="images/github.png"></a>
+		<a href="https://www.linkedin.com/in/yue-long-5a2b2546?trk=nav_responsive_tab_profile"><img src="images/linkedin.png"></a>
+		<a href="https://twitter.com/katiely0829"><img src="images/twitter.png"></a>
+		</div>
+
+		<div id="menu">
+			<ul>
+				<li class="active"><a href="visualization.html" accesskey="1" title="">Visualization</a></li>
+				<li><a href="analytics.html" accesskey="2" title="">Analytics</a></li>
+				<li><a href="cv.html" accesskey="3" title="">CV</a></li>
+			</ul>
+		</div>
+	</header>
+
+	<div id="intro">
+	<h2>Visualization</h2>
+	<p>Below is a list of recent interactive visualizations that I have worked on. I used R, D3.js and Shiny App across these projects. The code can be found in <a href="https://github.com/katielong">github</a>.</p>
+	</div>
+
+	<div id="content">
+		<div class="center row">
+			<a href = "https://katielong.github.io/Land_Housing_Price/">
+				<img src = "images/choropleth-animate.png" class="column column-3" 
+				onmouseover="mouseover(this)" onmouseout="mouseout(this)">
+			</a>
+		
+			<a href = "https://katielong.github.io/Land_Housing_Price/zoomin.html">
+				<img src = "images/choropleth-zoomin.png" class="column column-3"
+				onmouseover="mouseover(this)" onmouseout="mouseout(this)">
+			</a>
+
+			<a href = "https://katielong.github.io/Land_Housing_Price/scatter.html">
+				<img src = "images/scatter-interpolate.png" class="column column-3"
+				onmouseover="mouseover(this)" onmouseout="mouseout(this)">
+			</a>
+
+		</div>
+		<div class="center row">
+			<a href = "https://katielong.github.io/HIV-Testing/">
+				<img src = "images/parallel-sets.png" class="column column-3"
+				onmouseover="mouseover(this)" onmouseout="mouseout(this)">
+			</a>
+
+			<a href = "https://katielong.github.io/fewd90week4/">
+				<img src = "images/temperature.png" class="column column-3"
+				onmouseover="mouseover(this)" onmouseout="mouseout(this)">
+			</a>
+
+			<div class="column column-3"> 
 			</div>
 		</div>
 	</div>
+
+	<div id="copyright">
+		<p>&copy; Katie Yue Long. All rights reserved. Modified from <a href="https://templated.co/">Templated</a>.</p>
+		<p>Find me on <a href="https://www.linkedin.com/in/yue-long-5a2b2546?trk=nav_responsive_tab_profile">Linkedin</a> or <a href="https://github.com/katielong">Github</a>.</p>
+	</div>
 </div>
 
-
+<script type="text/javascript" src="script.js"></script>
 </body>
 </html>

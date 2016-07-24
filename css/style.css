@@ -1,0 +1,118 @@
+body
+	{
+		margin: 0px;
+		padding: 0px;
+		font-family: 'Slabo 27px', serif;
+		font-size: 12pt;
+	}
+
+	a
+	{
+		color: #000;
+		text-decoration: none;
+	}
+	
+	a:hover
+	{
+		text-decoration: none;
+	}
+	
+	#container
+	{
+		margin: 0px auto;
+		width: 800px;
+	}
+
+	#intro
+	{
+		border-bottom: 1px solid #807F83;
+	}
+
+/*********************************************************************************/
+/* Header                                                                        */
+/*********************************************************************************/
+	header
+	{
+		text-align: center;
+		margin:20px;
+		margin-bottom: 40px
+	}
+
+	h1{
+		line-height: 10px;
+	}
+
+/*********************************************************************************/
+/* Menu                                                                          */
+/*********************************************************************************/
+	#menu ul
+	{
+		padding: 0em 2em;
+	}
+	
+	#menu li
+	{
+		display: inline-block;
+		line-height: 10px;
+	}
+	
+	#menu li a, #menu li span
+	{
+		padding: 0em 1.5em;
+		font-weight: 600;
+	}
+
+	#menu li:hover a, #menu li.active a, #menu li.active span
+	{
+		color: #3E5A99;
+	}
+/*********************************************************************************/
+/* Copyright                                                                     */
+/*********************************************************************************/
+	#copyright
+	{
+		overflow: hidden;
+		padding: 2em 0em;
+		margin-top:50px;
+		border-top: 1px solid #807F83;
+		text-align: center;
+	}
+	
+	#copyright p
+	{
+		letter-spacing: 1px;
+		font-size: 10px;
+	}
+
+/*********************************************************************************/
+/* Content                                                                     */
+/*********************************************************************************/
+
+	#content{
+		padding-top:3em;
+	}
+
+	#content img{
+		height:200px;
+		margin:10px;
+	}
+
+	.box{
+		padding-top:30px;
+	}
+
+
+/*********************************************************************************/
+/* Icon                                                                   */
+/*********************************************************************************/
+
+	#icon a{
+		display:inline-block;
+	}
+
+	#icon img{
+		width:30px;
+		height:30px;
+		padding: 0px 10px;
+		/*margin-top:0em;*/
+	}

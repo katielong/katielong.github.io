@@ -2,48 +2,73 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title></title>
-<link href="style.css" rel="stylesheet" type="text/css">
+<link href="css/style.css" rel="stylesheet" type="text/css">
+<link href="css/normalize.css" rel="stylesheet" type="text/css">
+<link href="css/grid.css" rel="stylesheet" type="text/css">
+
+<link href='https://fonts.googleapis.com/css?family=Slabo+27px' rel='stylesheet' type='text/css'>
 
 </head>
 
 <body>
-<div id="header-wrapper">
-	<div id="header" class="container">
-	<img style="width:18%;border-radius: 50%;" src="images/profile.JPG">
-		<div id="logo">
-			<h1><a href="index.html">Katie Yue Long</a></h1>
-			<div id="menu">
-				<ul>
-					<li><a href="visualization.html" accesskey="1" title="">Visualization</a></li>
-					<li class="active"><a href="analytics.html" accesskey="2" title="">Analytics</a></li>
-					<li><a href="cv.html" accesskey="3" title="">CV</a></li>
-					<li><a href="other.html" accesskey="4" title="">Others</a></li>
-				</ul>
-			</div>
-		</div>
-	</div>
-</div>
+<div id="container">
+	<header>
+		<img style="width:18%;border-radius: 50%;" src="images/profile.JPG">
+		<h1>Katie Yue Long</h1>
 
-<div id="content" class="container">
+		<div id="icon">
+		<a href="https://github.com/katielong"><img src="images/github.png"></a>
+		<a href="https://www.linkedin.com/in/yue-long-5a2b2546?trk=nav_responsive_tab_profile"><img src="images/linkedin.png"></a>
+		<a href="https://twitter.com/katiely0829"><img src="images/twitter.png"></a>
+		</div>
+
+		<div id="menu">
+			<ul>
+				<li><a href="visualization.html" accesskey="1" title="">Visualization</a></li>
+				<li class="active"><a href="analytics.html" accesskey="2" title="">Analytics</a></li>
+				<li><a href="cv.html" accesskey="3" title="">CV</a></li>
+			</ul>
+		</div>
+	</header>
+
+    <div id = "intro">
 	<h2>Analytics</h2>
 	<p>Below is a list of recent analytics that I have worked on. They ranged from research projects that I have worked on as a research assistant at Columbia, to research project doen as an intern, and others that I have done just for fun!</p>
-
+	</div>
+    
+    <div id="content">
 			<div class="box">
-			<a href="viz1/index.html">
-			<h3 href="#">HIV Testing Acceptance</h3>	</a>
+			<a href="https://katielong.github.io/HIV-Testing/">
+			<h3>HIV Testing Acceptance</h3>	
+			</a>
 			<h4>Tawandra L. Rowell-Cunsolo, Yamnia I. Cortes, Yue Long, Erida Castro-Rivas, Jianfang Liu</h4>
 			<p>We used cox regression with constant time variable to calculate risk ratios in measuring association between factors and outcome at the both bivariate and multivariate levels. Results indicated that participants who were reportedly somewhat or very religious were less likely than those who were less religious to undergo rapid HIV testing. Partcipants who were reportedly tested for HIV withiin the past year were also less likely to accept the HIV testing offer than those who had not been tested within the past year. </p>
 			</div>
-		
-			
-</div>
 
 
+			<div class="box">
+			<a href="https://katielong.github.io/Land_Housing_Price/">
+			<h3>Housing Price, Residential Land Price and Residential Land Sales in China</h3>	
+			</a>
+			<h4>Huina Gao, Zhi Liu, Yue Long</h4>
+			<p> Two topics were explored for this project: the interaction between housing and residential land price, and the relationship between residential land price and land sales. Using a simulatanoues-equations model, we examined the interaction between housing price and residential land price, and with the fixed effects model, we examined the influence of government's restriction in land sales on residential land price. Results indicated that for each percentage increase in residential land price, housing price increased by about 0.05%; and for each percentage increase in housing price, residential land price increased by about 1.16%. Moreover, for each percentage decrease in new land sales, land price increased by 0.17%, and this influence was significant among non-major cities (0.19%) and not significant among major cities (0.03%). 
+			</p>
+			</div>
 
 
-<div id="copyright" class="container">
-	<p>&copy; Katie Yue Long. All rights reserved. Modified from <a href="https://templated.co/">Templated</a>.</p>
-	<p>Find me on <a href="https://www.linkedin.com/in/yue-long-5a2b2546?trk=nav_responsive_tab_profile">Linkedin</a> or <a href="https://github.com/katielong">Github</a>.</p>
+			<div class="box">
+			<a href="#">
+			<h3>Predictors of Depression among Latino Population</h3>	
+			</a>
+			<h4>Tawandra L. Rowell-Cunsolo, Yue Long, Yamnia I. Cortes</h4>
+			<p> ... </p>
+			</div>		
+	</div>
+
+	<div id="copyright">
+		<p>&copy; Katie Yue Long. All rights reserved. Modified from <a href="https://templated.co/">Templated</a>.</p>
+		<p>Find me on <a href="https://www.linkedin.com/in/yue-long-5a2b2546?trk=nav_responsive_tab_profile">Linkedin</a> or <a href="https://github.com/katielong">Github</a>.</p>
+	</div>
 </div>
 </body>
 </html>
