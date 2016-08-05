@@ -56,6 +56,12 @@ body
 		line-height: 10px;
 	}
 
+	#profile{
+		width:18%;
+		border-radius: 50%;
+	}
+
+
 /*********************************************************************************/
 /* Menu                                                                          */
 /*********************************************************************************/
@@ -103,7 +109,7 @@ body
 /*********************************************************************************/
 
 	#content{
-		width:80%;
+		width:90%;
 		margin:0 auto;
 		padding-top:3em;
 	}
@@ -124,6 +130,7 @@ body
 		width:33%;
 		height:210px;
 		padding:20px 0px;
+
 	}
 
 	.box img{
@@ -168,14 +175,30 @@ body
 	}
 
 /*media*/
-
-@media only screen and (max-width:600px){
+@media only screen and (max-width:800px){
 	.box{
-		float:none;
-		display:block;
-		width:80%;
+		width:50%;
 		margin:0 auto;
-		padding-top:0px;
+	}
+
+@media only screen and (max-width:550px){
+	.box{
+		display:block;
+		float:none;
+		width:85%;
+	}
+
+	#menu li{
+		display:block;
+		margin:10px;
 	}
 }
+}
+
+@media only screen and (min-width:800px){
+	#container{
+		width:800px;
+	}
+}
+
 
