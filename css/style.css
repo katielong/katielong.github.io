@@ -27,11 +27,6 @@ body
 		width: 800px;
 	}
 
-	#intro
-	{
-		border-bottom: 1px solid #807F83;
-	}
-
 	.emph
 	{
 		font-style:italic;
@@ -92,7 +87,6 @@ body
 		overflow: hidden;
 		padding: 2em 0em;
 		margin-top:50px;
-		border-top: 1px solid #807F83;
 		text-align: center;
 	}
 	
@@ -107,21 +101,54 @@ body
 /*********************************************************************************/
 
 	#content{
+		width:95%;
+		margin:0 auto;
 		padding-top:3em;
 	}
 
-	#content img{
-		height:200px;
-		margin:10px;
-	}
-
-	.box{
-		padding-top:30px;
+	#main, #other{
+		width:100%;
+		border-top: 1px solid #807F83;
 	}
 
 	#other{
-		width:800px;
-		border-top: 1px solid #807F83;
+		border-bottom: 1px solid #807F83;
+	}
+
+	.clearfix:after {
+		display: block;
+		clear: both;
+		content: "";
+	}
+
+	.box{
+		position: relative;
+		float:left;
+		width:33%;
+		height:210px;
+		padding:20px 0px;
+	}
+
+	.box img{
+		width:100%;
+		height:200px;
+	}
+
+	.box a{
+		display:block;
+		text-align:right;
+	}
+
+	.box p{
+		display:none;
+		font-size:22px;
+		margin:0;
+		color:white;
+	}
+
+	#current p{
+		display:block;
+		text-align:right;
 	}
 
 
@@ -138,3 +165,4 @@ body
 		height:30px;
 		padding: 0px 10px;
 	}
+
