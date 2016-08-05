@@ -23,8 +23,9 @@ body
 	
 	#container
 	{
+		width:95%;
 		margin: 0px auto;
-		width: 800px;
+		
 	}
 
 	.emph
@@ -88,6 +89,7 @@ body
 		padding: 2em 0em;
 		margin-top:50px;
 		text-align: center;
+		border-top: 1px solid #807F83;
 	}
 	
 	#copyright p
@@ -101,17 +103,12 @@ body
 /*********************************************************************************/
 
 	#content{
-		width:95%;
+		width:80%;
 		margin:0 auto;
 		padding-top:3em;
 	}
 
-	#main, #other{
-		width:100%;
-		border-top: 1px solid #807F83;
-	}
-
-	#other{
+	#intro{
 		border-bottom: 1px solid #807F83;
 	}
 
@@ -151,6 +148,10 @@ body
 		text-align:right;
 	}
 
+	.textbox{
+		padding:20px 0px;
+	}
+
 
 /*********************************************************************************/
 /* Icon                                                                   */
@@ -165,4 +166,16 @@ body
 		height:30px;
 		padding: 0px 10px;
 	}
+
+/*media*/
+
+@media only screen and (max-width:600px){
+	.box{
+		float:none;
+		display:block;
+		width:80%;
+		margin:0 auto;
+		padding-top:0px;
+	}
+}
 
