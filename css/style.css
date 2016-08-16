@@ -21,6 +21,11 @@ body
 		list-style-type: none;
 	}
 	
+	#menu img{
+		display:none;
+		width:30px;
+	}
+
 	#container
 	{
 		width:95%;
@@ -127,9 +132,9 @@ body
 	.box{
 		position: relative;
 		float:left;
-		width:33%;
+		width:30%;
 		height:210px;
-		padding:20px 0px;
+		padding:20px 10px;
 
 	}
 
@@ -190,7 +195,20 @@ body
 
 	#menu li{
 		display:block;
+	}
+
+	#menu a{
+		display:none;
 		margin:10px;
+	}
+
+	#menu img{
+		display:block;
+		margin:0 auto;
+	}
+
+	#menu:hover a{
+		display:block;
 	}
 }
 }
