@@ -41,8 +41,9 @@ body
 
 	#summary{
 		margin:0 auto;
-		width:500px;
+		width:75%;
 		margin-top: 20px;
+		font-style:italic;
 	}
 
 
@@ -132,9 +133,9 @@ body
 	.box{
 		position: relative;
 		float:left;
-		width:30%;
+		width:31%;
 		height:210px;
-		padding:20px 10px;
+		padding:20px 5px;
 
 	}
 
@@ -150,14 +151,14 @@ body
 
 	.box p{
 		display:none;
-		font-size:22px;
+		font-size:15px;
 		margin:0;
 		color:white;
 	}
 
 	#current p{
 		display:block;
-		text-align:right;
+		text-align:center;
 	}
 
 	.textbox{
@@ -182,24 +183,36 @@ body
 /*media*/
 @media only screen and (max-width:800px){
 	.box{
-		width:50%;
+		width:40%;
 		margin:0 auto;
+		padding:20px;
+	}
+	.box:first-child, .box:nth-child(3n){
+		padding-left:30px;
+	}
+	.box:nth-child(2n){
+		padding-right:30px;
 	}
 
-@media only screen and (max-width:550px){
+@media only screen and (max-width:600px){
 	.box{
 		display:block;
 		float:none;
-		width:85%;
+		width:80%;
+		height:290px;
+	}
+	.box img{
+		height:290px;
 	}
 
 	#menu li{
 		display:block;
+
 	}
 
 	#menu a{
 		display:none;
-		margin:10px;
+		margin:8px;
 	}
 
 	#menu img{
@@ -209,6 +222,13 @@ body
 
 	#menu:hover a{
 		display:block;
+	}
+
+	#menu{
+		width:100%;
+		/*position:absolute;*/
+		left:0;
+		z-index:3;
 	}
 }
 }

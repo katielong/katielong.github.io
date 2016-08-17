@@ -9,7 +9,7 @@ $(document).ready(function(){
 			top: "0",
 			left: "0",
 			borderStyle:"solid",
-			borderWidth:"1em",
+			borderWidth:"0.5em",
 			borderColor:"black",
 			backgroundColor:"black",
 			opacity:"0.9",
@@ -20,6 +20,4 @@ $(document).ready(function(){
 	}).mouseleave(function(){
 		$("#current").remove();
 	});
-
-
 });
