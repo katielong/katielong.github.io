@@ -9,7 +9,10 @@ body
 	a
 	{
 		color: #3E5A99;
-		text-decoration: none;
+	}
+
+	ul a{
+		text-decoration:none;
 	}
 	
 	a:hover
@@ -37,6 +40,10 @@ body
 	{
 		font-style:italic;
 		display:inline;
+	}
+
+	.myname {
+		font-style:italic;
 	}
 
 	#summary{
@@ -161,7 +168,7 @@ body
 	}
 
 	.textbox{
-		padding:20px 0px;
+		padding:5px 0px;
 	}
 
 
