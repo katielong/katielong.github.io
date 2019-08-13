@@ -22,8 +22,3 @@ d3.json("vislist.json", (err, data) => {
         b.selectAll("p").transition().style("opacity", "0");
     });
 });
-
-
-d3.json("past.json", (err, data) => {
-
-});
