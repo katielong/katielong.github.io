@@ -1,0 +1,21 @@
+[{
+        "index": 1,
+        "name": "Land and Housing Prices in China",
+        "link": "https://katielong.github.io/Land_Housing_Price/",
+        "time": "2016",
+        "image": "images/choropleth-zoomin.png"
+    }, {
+        "index": 2,
+        "name": "Google's Support for H. Clinton",
+        "link": "http://www.googletransparencyproject.org/articles/lessons-googles-support-hillary-clinton",
+        "time": "2016",
+        "image": "images/hillary_google.png"
+    },
+    {
+        "index": 3,
+        "name": "Top Health Concerns in WICER",
+        "link": "http://www.googletransparencyproject.org/articles/lessons-googles-support-hillary-clinton",
+        "time": "2016",
+        "image": "images/chord-diagram.png"
+    }
+]

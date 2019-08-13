@@ -1,23 +1,29 @@
-$(document).ready(function() {
-    $(".box").mouseenter(function() {
-        var newdiv = $(this).html();
+d3.json("vislist.json", (err, data) => {
+    let box = d3.select("#main")
+        .selectAll("div")
+        .data(data)
+        .enter()
+        .append("div")
+        .attr("class", "box");
+    let link = box.append("a").attr("href", d => d.link);
 
-        $(newdiv).css({
-                position: "absolute",
-                width: "100%",
-                height: "100%",
-                top: "0",
-                left: "0",
-                borderStyle: "solid",
-                borderWidth: "0.5em",
-                borderColor: "black",
-                backgroundColor: "black",
-                opacity: "0.9",
-                zIndex: "2"
-            }).attr("id", "current")
-            .appendTo($(this).css("position", "relative"));
+    link.append("p").html(d => d.name);
+    link.append("img").attr("src", d => d.image);
+    link.append("p").html(d => d.time);
 
-    }).mouseleave(function() {
-        $("#current").remove();
+    box.on("mouseover", d => {
+        let b = d3.selectAll(".box")
+            .filter(e => e.index == d.index);
+        b.transition().style("background", "rgba(0,0,0,0.6)");
+        b.selectAll("p").transition().style("opacity", 1);
+    }).on("mouseout", d => {
+        let b = d3.selectAll(".box").filter(e => e.index == d.index);
+        b.transition().style("background", "rgba(256,256,256,1)");
+        b.selectAll("p").transition().style("opacity", "0");
     });
+});
+
+
+d3.json("past.json", (err, data) => {
+
 });
