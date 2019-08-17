@@ -3,19 +3,19 @@
         "name": "land-housing-prices",
         "link": "https://katielong.github.io/Land_Housing_Price/",
         "time": "2016",
-        "image": "images/choropleth-zoomin.png"
+        "image": "images/china-map.png"
     }, {
         "index": 2,
         "name": "google-hilary-clinton",
         "link": "http://www.googletransparencyproject.org/articles/lessons-googles-support-hillary-clinton",
         "time": "2016",
-        "image": "images/hillary_google.png"
+        "image": "images/hillary-google.png"
     },
     {
         "index": 3,
         "name": "health-concerns",
-        "link": "http://www.googletransparencyproject.org/articles/lessons-googles-support-hillary-clinton",
+        "link": "https://katielong.github.io/health_concerns/",
         "time": "2016",
-        "image": "images/chord-diagram.png"
+        "image": "images/health-concern.png"
     }
 ]
