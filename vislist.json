@@ -3,25 +3,25 @@
         "name": "glassdoor-reviews",
         "link": "https://rmd-jhx-app.herokuapp.com",
         "time": "2019",
-        "image": "images/glassdoor-reviews.png"
+        "image": "images/glassdoor-reviews.PNG"
     }, {
         "index": 2,
         "name": "congressional-bills",
         "link": "https://congressional-bill-app.herokuapp.com/",
         "time": "2019",
-        "image": "images/congressional-bills.png"
+        "image": "images/congressional-bills.PNG"
     },{
         "index": 3,
         "name": "climate-change",
         "link": "https://impact2018.abtassociates.com/climate_change",
         "time": "2018",
-        "image": "images/abt-climatechange.png"
+        "image": "images/abt-climatechange.PNG"
     },{
         "index": 4,
         "name": "hud-stella",
         "link": "https://files.hudexchange.info/resources/documents/Stella-System-Performance-Map-Guide.pdf",
         "time": "2018",
-        "image": "images/hud-stella.png"
+        "image": "images/hud-stella.PNG"
     },
     {
         "index": 5,
