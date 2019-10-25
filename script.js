@@ -20,5 +20,9 @@ d3.json("vislist.json", (err, data) => {
         let b = d3.selectAll(".box").filter(e => e.index == d.index);
         b.transition().style("background", "rgba(256,256,256,1)");
         b.selectAll("p").transition().style("opacity", "0");
+    }).on("click", d => {
+        let b = d3.selectAll(".box").filter(e => e.index == d.index);
+        b.transition().style("background", "rgba(256,256,256,1)");
+        b.selectAll("p").transition().style("opacity", "0");
     });
 });
