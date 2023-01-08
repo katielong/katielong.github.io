@@ -1,7 +1,7 @@
 [{
         "index": 1,
         "name": "book-shelf",
-        "link": "https://www.yueklong.com/book_shelf/",
+        "link": "https://katielong.github.io/book_shelf/",
         "time": "2019",
         "image": "images/book-shelf-top100.png"
     }, {
@@ -40,7 +40,7 @@
     {
         "index": 7,
         "name": "land-housing-prices",
-        "link": "https://www.yueklong.com/Land_Housing_Price/zoomin.html",
+        "link": "https://katielong.github.io/Land_Housing_Price/zoomin.html",
         "time": "2016",
         "image": "images/changsha-map.png"
     }
